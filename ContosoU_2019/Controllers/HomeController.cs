@@ -15,6 +15,12 @@ namespace ContosoU_2019.Controllers
             return View();
         }
 
+        //Demo: adding the about http get page 
+        public IActionResult About()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
